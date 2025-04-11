@@ -1,2 +1,2 @@
 # Final-Project
-This is my fianl project
+This is my final project

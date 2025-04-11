@@ -1,0 +1,64 @@
+body {
+font-family: Arial, sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background: #000000;
+margin: 0;
+  }
+  
+  .container {
+background: rgb(101, 209, 13);
+padding: 40px;
+border-radius: 10px;
+text-align: center;
+box-shadow: 0 0 15px rgba(0,0,0,0.1);
+width: 400px;
+  }
+  
+  input[type="password"] {
+padding: 10px;
+font-size: 16px;
+width: 90%;
+margin: 20px 0;
+border: 1px solid #e60707;
+border-radius: 5px;
+  }
+  
+  #strengthText {
+font-weight: bold;
+margin-top: 10px;
+  }
+  
+  ul#tipsList {
+text-align: left;
+padding-left: 20px;
+font-size: 14px;
+margin: 10px 0;
+  }
+
+  #showPasswordsBtn {
+margin-top: 15px;
+padding: 8px 15px;
+font-size: 14px;
+background-color: #333;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+  }
+  
+  #showPasswordsBtn:hover {
+background-color: #555;
+  }
+  
+  #previousPasswords {
+text-align: left;
+font-size: 13px;
+margin-top: 10px;
+list-style-type: disc;
+padding-left: 20px;
+max-height: 150px;
+overflow-y: auto;
+  }
